@@ -1,0 +1,65 @@
+version: 2
+updates:
+  - package-ecosystem: cargo
+    directory: "/rust/20221018_rc_refcell_car"
+    schedule:
+      interval: weekly
+    groups:
+      cargo-minor-patch:
+        update-types: [minor, patch]
+  - package-ecosystem: cargo
+    directory: "/rust/20221019_weak_refcell_car"
+    schedule:
+      interval: weekly
+    groups:
+      cargo-minor-patch:
+        update-types: [minor, patch]
+  - package-ecosystem: cargo
+    directory: "/rust/20221020_rc_refcell_iter"
+    schedule:
+      interval: weekly
+    groups:
+      cargo-minor-patch:
+        update-types: [minor, patch]
+  - package-ecosystem: cargo
+    directory: "/rust/20221022_arena_weak_refcell"
+    schedule:
+      interval: weekly
+    groups:
+      cargo-minor-patch:
+        update-types: [minor, patch]
+  - package-ecosystem: cargo
+    directory: "/rust/20221101_arena_weak_refcell_setcar"
+    schedule:
+      interval: weekly
+    groups:
+      cargo-minor-patch:
+        update-types: [minor, patch]
+  - package-ecosystem: cargo
+    directory: "/rust/20221107_arena_alloc_macro"
+    schedule:
+      interval: weekly
+    groups:
+      cargo-minor-patch:
+        update-types: [minor, patch]
+  - package-ecosystem: cargo
+    directory: "/rust/20221109_destructure_vec"
+    schedule:
+      interval: weekly
+    groups:
+      cargo-minor-patch:
+        update-types: [minor, patch]
+  - package-ecosystem: cargo
+    directory: "/rust/20221110_iter_into_iter"
+    schedule:
+      interval: weekly
+    groups:
+      cargo-minor-patch:
+        update-types: [minor, patch]
+  - package-ecosystem: cargo
+    directory: "/rust/20221111_arena_into_iter"
+    schedule:
+      interval: weekly
+    groups:
+      cargo-minor-patch:
+        update-types: [minor, patch]
