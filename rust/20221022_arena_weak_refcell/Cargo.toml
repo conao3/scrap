@@ -6,5 +6,5 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-anyhow = "1.0.66"
-typed-arena = "2.0.1"
+anyhow = "1.0.104"
+typed-arena = "2.0.2"
